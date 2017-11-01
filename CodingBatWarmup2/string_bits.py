@@ -1,3 +1,4 @@
+# Given a string, return a new string made of every other char starting with the first, so "Hello" yields "Hlo".
 def string_bits(str):
     result = ''
 
@@ -6,6 +7,7 @@ def string_bits(str):
             result = result + str[i]
 
     return result
+
 
 print(string_bits('Hello'))
 print(string_bits('Hi'))
